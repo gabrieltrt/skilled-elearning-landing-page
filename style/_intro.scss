@@ -10,6 +10,7 @@ main {
   flex-direction: column;
   gap: 25px;
   position: relative;
+  margin-bottom: 11.625rem;
   @include tablet {
     flex-direction: row;
   }
@@ -39,18 +40,25 @@ main {
   }
 
   .image-hero {
-    position: relative;
+    @include tablet {
+      position: relative;
+    }
   }
   
   .intro-img {
     margin: 0 auto;
-
+    @include tablet {
+      position: absolute;
+      left: -89px;
+      top: -245px;
+    }
   }
   
   img {
     max-width: 20.4375rem;
+    margin: 0 auto;
     @include tablet {
-
+     max-width: 640px;
     }
   }
 }

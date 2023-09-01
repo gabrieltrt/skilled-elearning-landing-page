@@ -66,6 +66,7 @@ main {
   flex-direction: column;
   gap: 25px;
   position: relative;
+  margin-bottom: 11.625rem;
 }
 @media (min-width: 600px) {
   .intro {
@@ -94,15 +95,31 @@ main {
   align-items: center;
   margin-bottom: 1.3125rem;
 }
-.intro .image-hero {
-  position: relative;
+@media (min-width: 600px) {
+  .intro .image-hero {
+    position: relative;
+  }
 }
 .intro .intro-img {
   margin: 0 auto;
 }
+@media (min-width: 600px) {
+  .intro .intro-img {
+    position: absolute;
+    left: -89px;
+    top: -245px;
+  }
+}
 .intro img {
   max-width: 20.4375rem;
+  margin: 0 auto;
 }
+@media (min-width: 600px) {
+  .intro img {
+    max-width: 640px;
+  }
+}
+
 .intro-content {
   display: flex;
   flex-direction: column;
