@@ -1,0 +1,63 @@
+main {
+  padding: 0 16px 80px 16px;
+  @include tablet {
+    padding: 0 2.4375rem 5.375rem 2.4375rem;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+  @include tablet {
+    flex-direction: row;
+  }
+  h1 {
+    color: map-get($colors, primary);
+    font-size: map-get($font-size, l);
+    font-weight: map-get($weight , ebold);
+  }
+  
+  p {
+    color: map-get($colors, secondary);
+    font-size: map-get($font-size, xxs);
+    font-weight: map-get($weight , medium);
+  }
+  
+  a {
+    color: #FFFFFF;
+    background: $gradient;
+      font-weight: map-get($weight, bold);
+      border-radius: 28px;
+      padding: 0.9375rem 2.3125rem;
+      height: 3.5rem;
+      width: 10.4375rem;
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.3125rem;
+  }
+
+  .image-hero {
+    position: relative;
+  }
+  
+  .intro-img {
+    margin: 0 auto;
+
+  }
+  
+  img {
+    max-width: 20.4375rem;
+    @include tablet {
+
+    }
+  }
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 24.875rem;
+}

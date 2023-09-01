@@ -1,0 +1,8 @@
+$colors: (
+  primary: #13183F,
+  secondary: #83869A,
+  tertiary: #F74780,
+);
+
+$gradient: linear-gradient(to bottom, rgb(255, 111, 72), rgb(240, 42, 166));
+$gradient-hover: linear-gradient(to bottom, rgba(255, 111, 72, 0.5), rgba(240, 42, 166, 0.5));

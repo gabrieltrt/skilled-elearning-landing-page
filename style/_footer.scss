@@ -1,0 +1,20 @@
+footer {
+  background-color: map-get($colors, primary);
+  display: flex;
+  justify-content: space-between;
+  padding: 2.25rem 1rem;
+  img {
+    width: 89px;
+    align-self: center;
+  }
+  a {
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #4851FF, #F02AA6);
+    border-radius: 28px;
+    font-weight: map-get($weight, bold);
+    padding: 10px 24px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: linear-gradient(to bottom, #FFFFFF, #F0F1FF);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 2.375rem 1rem;
+}
+@media (min-width: 600px) {
+  header {
+    padding: 1.5rem 2.5rem 6.1875rem 2.5rem;
+  }
+}
+header img {
+  align-self: center;
+  width: 5.5625rem;
+}
+header a {
+  color: #FFFFFF;
+  background-color: #13183F;
+  border-radius: 28px;
+  font-weight: 700;
+  padding: 0.5625rem 1.5rem 0.6875rem 1.5rem;
+  height: 3rem;
+  width: 8.75rem;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  padding: 0 16px 80px 16px;
+}
+@media (min-width: 600px) {
+  main {
+    padding: 0 2.4375rem 5.375rem 2.4375rem;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+@media (min-width: 600px) {
+  .intro {
+    flex-direction: row;
+  }
+}
+.intro h1 {
+  color: #13183F;
+  font-size: 40px;
+  font-weight: 800;
+}
+.intro p {
+  color: #83869A;
+  font-size: 16px;
+  font-weight: 500;
+}
+.intro a {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom, rgb(255, 111, 72), rgb(240, 42, 166));
+  font-weight: 700;
+  border-radius: 28px;
+  padding: 0.9375rem 2.3125rem;
+  height: 3.5rem;
+  width: 10.4375rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.3125rem;
+}
+.intro .image-hero {
+  position: relative;
+}
+.intro .intro-img {
+  margin: 0 auto;
+}
+.intro img {
+  max-width: 20.4375rem;
+}
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 24.875rem;
+}
+
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.courses-intro {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom, rgb(255, 111, 72), rgb(240, 42, 166));
+  border-radius: 0.625rem;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 1.5rem 1.8125rem 2rem 1.75rem;
+  line-height: 1.3334;
+  margin-bottom: 40px;
+}
+
+.container {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 0px 28px 32px 28px;
+}
+.container img {
+  width: 3.5rem;
+  position: relative;
+  top: -24px;
+}
+.container h2 {
+  color: #13183F;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.container p {
+  font-size: 16px;
+  color: #83869A;
+  font-weight: 500;
+  line-height: 1.625;
+  margin-bottom: 1.5rem;
+}
+.container a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #F74780;
+  margin-bottom: 32px;
+}
+
+footer {
+  background-color: #13183F;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.25rem 1rem;
+}
+footer img {
+  width: 89px;
+  align-self: center;
+}
+footer a {
+  color: #FFFFFF;
+  background: linear-gradient(to bottom, #4851FF, #F02AA6);
+  border-radius: 28px;
+  font-weight: 700;
+  padding: 10px 24px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
