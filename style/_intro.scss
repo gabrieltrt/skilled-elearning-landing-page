@@ -14,6 +14,7 @@ main {
   @include tablet {
     flex-direction: row;
   }
+
   h1 {
     color: map-get($colors, primary);
     font-size: map-get($font-size, l);
@@ -38,29 +39,15 @@ main {
       align-items: center;
       margin-bottom: 1.3125rem;
   }
-
-  .image-hero {
-    @include tablet {
-      position: relative;
-    }
-  }
   
   .intro-img {
     margin: 0 auto;
+    max-width: 20.4375rem;
     @include tablet {
-      position: absolute;
-      left: -89px;
-      top: -245px;
+      max-width: 40rem;
     }
   }
   
-  img {
-    max-width: 20.4375rem;
-    margin: 0 auto;
-    @include tablet {
-     max-width: 640px;
-    }
-  }
 }
 
 .intro-content {

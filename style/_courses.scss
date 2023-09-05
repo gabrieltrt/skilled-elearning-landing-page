@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+  @include tablet {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .courses-intro {
@@ -13,12 +17,18 @@
   padding: 1.5rem 1.8125rem 2rem 1.75rem;
   line-height: 1.3334;
   margin-bottom: 40px;
+  @include tablet {
+    max-width: 21.1875rem;
+  }
 }
 
 .container {
   background-color: #FFFFFF;
   border-radius: 10px;
   padding: 0px 28px 32px 28px;
+  @include tablet {
+    max-width: 21.25rem;
+  }
   img {
     width: 3.5rem;
     position: relative;

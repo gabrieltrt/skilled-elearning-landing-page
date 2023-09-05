@@ -95,28 +95,13 @@ main {
   align-items: center;
   margin-bottom: 1.3125rem;
 }
-@media (min-width: 600px) {
-  .intro .image-hero {
-    position: relative;
-  }
-}
 .intro .intro-img {
   margin: 0 auto;
+  max-width: 20.4375rem;
 }
 @media (min-width: 600px) {
   .intro .intro-img {
-    position: absolute;
-    left: -89px;
-    top: -245px;
-  }
-}
-.intro img {
-  max-width: 20.4375rem;
-  margin: 0 auto;
-}
-@media (min-width: 600px) {
-  .intro img {
-    max-width: 640px;
+    max-width: 40rem;
   }
 }
 
@@ -132,6 +117,12 @@ main {
   flex-direction: column;
   gap: 40px;
 }
+@media (min-width: 600px) {
+  .courses-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 
 .courses-intro {
   color: #FFFFFF;
@@ -143,11 +134,21 @@ main {
   line-height: 1.3334;
   margin-bottom: 40px;
 }
+@media (min-width: 600px) {
+  .courses-intro {
+    max-width: 21.1875rem;
+  }
+}
 
 .container {
   background-color: #FFFFFF;
   border-radius: 10px;
   padding: 0px 28px 32px 28px;
+}
+@media (min-width: 600px) {
+  .container {
+    max-width: 21.25rem;
+  }
 }
 .container img {
   width: 3.5rem;
